@@ -1,0 +1,6 @@
+Por: Isaac Iuri Alves de Oliveira
+Dia 08 de Dezembro de 2025
+
+Hoje foram feitos vários testes, principalmente para explorar a documentação do PyBricks.
+
+O 'control_PID' foi um desastre, tentativa de entender o funcionamento dessa função.
