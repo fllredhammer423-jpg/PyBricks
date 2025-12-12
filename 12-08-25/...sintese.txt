@@ -4,8 +4,52 @@ Dia 08 de Dezembro de 2025
 Objetivo: Hoje foram feitos vários testes, principalmente para explorar a documentação do PyBricks.
 
 Arquivos:
+
+
+# control_PID.py
 O 'control_PID' foi um desastre, tentativa de entender o funcionamento dessa função.
 Não tenho certeza se o programa funciona ou se realmente faz o que deveria fazer.
-Tente não entender o que foi programado, só foi um TESTE.
 
+### Tente não entender o que foi programado, só foi um TESTE.
+
+
+# giroscopio.py
 O 'giroscopio' foi feito de ultimo momento também, se quiser ver algo mais elaborado e claro, siga para a próxima atualização (12-12-25).
+A única coisa de giroscópio que tem nele, é a ultima linha, as outras são configurações do 'drive_base', aprofundados em 'motores1'.
+
+### Nada mais a ser explorado nele sobre giroscópio.
+
+
+# leitura_de_cores.py
+Diferente dos outros dois programas, este realmente funciona.
+Ele lê, com o sensor de cor na porta 'C', o HSV, a COR e a LUZ do AMBIENTE, a cada 100 milissegundos.
+Está tudo documentado dentro dele.
+
+### Vale a pena ser testado e entendido
+
+
+# motores1.py
+O 'motores1' testa a experiência de se programar a movimentação de duas rodas de uma vez, utilizando o 'drive_base'.
+Essa biblioteca tende a ser muito inconsistente.
+No final do código, ele anda pra frente, faz uma curva e faz um giro. Teoricamente, os giros era pra ser de 90° cada, mas são irregulares.
+
+### Não vale tanto a pena testar, teria que ser pesquisado mais afundo de como calibrar
+
+
+# pretoEbranco.py
+Esse arquivo, testa se a cor que está presente no sensor, está mais próxima do preto ou do branco.
+O programa tende a não detectar nenhuma das cores citadas, por isso do 'else'.
+
+### Vale a pena ser testado e entendido, caso queira entender o básico do sensor de cor ou do segue linha.
+
+
+# sens_distância.py
+Outro programa que funciona perfeitamente, a documentação ajudou demais noix.
+
+### Teste em caso de uso para o sensor ultrassônico
+
+
+# sensores1_.py
+Um fiasco também, somente salvei em caso de atualizações no código.
+
+### Não use e nem teste, se quiser tentar pegar algo por cima, vai por você
