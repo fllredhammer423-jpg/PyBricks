@@ -1,6 +1,11 @@
 Por: Isaac Iuri Alves de Oliveira
 Dia 08 de Dezembro de 2025
 
-Hoje foram feitos vários testes, principalmente para explorar a documentação do PyBricks.
+Objetivo: Hoje foram feitos vários testes, principalmente para explorar a documentação do PyBricks.
 
+Arquivos:
 O 'control_PID' foi um desastre, tentativa de entender o funcionamento dessa função.
+Não tenho certeza se o programa funciona ou se realmente faz o que deveria fazer.
+Tente não entender o que foi programado, só foi um TESTE.
+
+O 'giroscopio' foi feito de ultimo momento também, se quiser ver algo mais elaborado e claro, siga para a próxima atualização (12-12-25).
